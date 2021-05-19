@@ -1,0 +1,47 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #e7e7e7;
+  background-color: #0d97ff;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+/* .home {
+  height: 83vh;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+.home-left {
+  width: 50%;
+  height: auto;
+  text-align: left;
+  color: white;
+  font-size: 2.7rem;
+  z-index: 3;
+}
+.home-left h1 {
+  margin-top: 8rem;
+}
+.home-left p {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.home-left span {
+  font-weight: 700;
+}
+.home-right {
+  width: 30%;
+}
+.home-right img {
+  margin-top: 3rem;
+  width: 400px;
+  height: 400px;
+} */

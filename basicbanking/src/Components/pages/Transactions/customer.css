@@ -1,0 +1,58 @@
+.transactionContainer,
+.customers {
+  margin: auto;
+  margin-top: 4rem;
+  background-color: #eee;
+  width: 70%;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: #eee;
+}
+
+th,
+td {
+  padding: 1rem 2rem;
+}
+
+th {
+  background-color: #0d97ff;
+  color: #ffff;
+  font-size: 1.5rem;
+}
+td {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.transaction:nth-child(odd),
+.customer:nth-child(odd) {
+  background-color: rgb(183, 210, 241, 0.5);
+}
+
+.customer:hover {
+  outline: 1px solid black;
+  outline-offset: -3px;
+  cursor: pointer;
+}
+
+.loading {
+  text-align: center;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+  .transactionContainer,
+  .customers {
+    width: 100%;
+  }
+
+  .customer {
+    text-decoration: underline;
+  }
+}
