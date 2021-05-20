@@ -20,4 +20,7 @@ app.use("/api/customers", require("./routes/customers"));
 app.use("/api/transaction", require("./routes/transactions"));
 
 const PORT = process.env.PORT || 3000;
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("basicbanking/build"));
+}
 app.listen(PORT, () => console.log(`Server started at port ${PORT}`));
